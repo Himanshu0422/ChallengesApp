@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to bottom right, #e0f2fe, #d1fae5);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.backgound-color {
+  background-color: rgba(16 18 27 / 25%);
+  border-radius: 12px;
+  margin: 0 5px;
+}
+
+.button-background {
+  background-color: rgba(12 15 25 / 30%);
+}
+
+.background-hover:hover {
+  background-color: rgba(12 15 25 / 30%);
+}
+
+.border-width {
+  border: 0.3px solid white;
+}
+
+.box-shadow {
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.08);
+}
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(12, 15, 25, 0.64);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
